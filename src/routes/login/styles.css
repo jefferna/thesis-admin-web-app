@@ -1,0 +1,33 @@
+.MainContainer {
+  margin-top: 10%;
+  height: 75%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.LeftImageContainer {
+  left: 0;
+  width: 40%;
+  background-color: lightgray;
+}
+
+.LoginComponentContainer {
+  right: 0;
+  width: 60%;
+  background-color: whitesmoke;
+}
+
+.LoginCenterComponent {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  text-align: center;
+}
+
+.TextInputFields {
+  margin-top: 50;
+}
